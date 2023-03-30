@@ -16,7 +16,7 @@ project "GLFW"
     "src/monitor.c",
     
     "src/null_init.c",
-    "src/null_joystick.c"
+    "src/null_joystick.c",
     "src/null_window.c",
     "src/null_monitor.c",
   
@@ -72,7 +72,7 @@ project "GLFW"
 
   filter "configurations:Debug"
     runtime "Debug"
-    sysbols "On"
+    symbols "On"
   
   filter "configurations:Release"
     runtime "Debug"
